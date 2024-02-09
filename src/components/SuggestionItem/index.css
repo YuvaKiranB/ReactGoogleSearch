@@ -1,0 +1,25 @@
+/* Write your CSS here */
+
+.li {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.image3 {
+  height: 24px;
+  cursor: pointer;
+}
+
+.p1 {
+  font-family: roboto;
+  color: #475569;
+  margin-top: 0px;
+}

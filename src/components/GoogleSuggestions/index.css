@@ -1,0 +1,61 @@
+/* Write your CSS here */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 20vh;
+  width: 100vw;
+}
+
+.image1 {
+  height: 15vw;
+  margin-bottom: 20px;
+}
+
+.searchElement {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.image2 {
+  height: 30px;
+  margin-right: 8px;
+  margin-bottom: 0px;
+}
+
+.input {
+  height: 25px;
+  width: 100%;
+  border-width: 0px;
+  outline: none;
+  margin-bottom: 0px;
+}
+
+.card {
+  width: 85vw;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 10px;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+.ul {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  padding-left: 10px;
+}
+
+@media (min-width: 800px) {
+  .card {
+    width: 800px;
+  }
+
+  .image1 {
+    height: 150px;
+  }
+}
